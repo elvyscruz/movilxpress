@@ -1,74 +1,49 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movil Express | Tu tienda de celulares</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-body {
-    background: #f7f7f7;
-    color: #333;
-}
+<header class="hero">
+    <h1>Movil Express</h1>
+    <p>Celulares, accesorios y reparaciones al mejor precio</p>
+    <a href="#contacto" class="btn">Contáctanos</a>
+</header>
 
-.hero {
-    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-    color: #fff;
-    text-align: center;
-    padding: 80px 20px;
-}
+<section class="services">
+    <h2>Nuestros Servicios</h2>
+    <div class="grid">
+        <div class="card">📱 Venta de celulares</div>
+        <div class="card">🔧 Reparación técnica</div>
+        <div class="card">🎧 Accesorios originales</div>
+        <div class="card">💳 Recargas y servicios</div>
+    </div>
+</section>
 
-.hero h1 {
-    font-size: 3rem;
-}
+<section class="products">
+    <h2>Productos Destacados</h2>
+    <div class="grid">
+        <div class="card">Samsung Galaxy</div>
+        <div class="card">iPhone</div>
+        <div class="card">Xiaomi</div>
+        <div class="card">Tecno / Infinix</div>
+    </div>
+</section>
 
-.hero p {
-    margin: 15px 0;
-    font-size: 1.2rem;
-}
+<section id="contacto" class="contact">
+    <h2>Contáctanos</h2>
+    <p>📍 Visítanos en nuestra tienda</p>
+    <p>📞 Tel: 809-000-0000</p>
+    <a href="https://wa.me/18090000000" class="btn whatsapp">Escribir por WhatsApp</a>
+</section>
 
-.btn {
-    display: inline-block;
-    padding: 12px 25px;
-    background: #ff9800;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 6px;
-    font-weight: bold;
-}
+<footer>
+    <p>© 2026 Movil Express - Todos los derechos reservados</p>
+</footer>
 
-.services, .products, .contact {
-    padding: 60px 20px;
-    text-align: center;
-}
-
-h2 {
-    margin-bottom: 30px;
-    font-size: 2rem;
-}
-
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 20px;
-    max-width: 900px;
-    margin: auto;
-}
-
-.card {
-    background: #fff;
-    padding: 25px;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    font-size: 1.1rem;
-}
-
-.whatsapp {
-    background: #25D366;
-}
-
-footer {
-    background: #222;
-    color: #fff;
-    text-align: center;
-    padding: 15px;
-}
+</body>
+</html>
